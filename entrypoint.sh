@@ -28,6 +28,7 @@ if [ ! -f "build.info" ]; then
   GOOS=windows GOARCH=amd64 make release-client
   GOOS=darwin GOARCH=386 make release-client  
   GOOS=darwin GOARCH=amd64 make release-client
+  GOOS=linux GOARCH=amd64 make release-client
   GOOS=linux GOARCH=386 make release-client
   GOOS=linux GOARCH=amd64 make release-client
   GOOS=linux GOARCH=arm make release-client
